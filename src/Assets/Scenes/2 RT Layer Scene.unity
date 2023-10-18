@@ -235,7 +235,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 64
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: fc607c0171f683c41839101317f38312, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 87abed7144e46244eb0c5d0661fb34c0, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -258,7 +258,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1233795877}
-  - {fileID: 960918420}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -311,7 +310,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527108038}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -323,7 +322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e9ac3d2585d10c2418d4a1c99ae7d17a, type: 2}
+  - {fileID: 2100000, guid: 90ea40c0451eef847922134b3db8b6fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -430,7 +429,7 @@ GameObject:
   - component: {fileID: 960918423}
   - component: {fileID: 960918422}
   - component: {fileID: 960918421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Quad (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,8 +448,8 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 522790180}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &960918421
 MonoBehaviour:
@@ -466,7 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   renderTextureCamera: {fileID: 522790179}
   texture1: {fileID: 8400000, guid: fc607c0171f683c41839101317f38312, type: 2}
-  texture2: {fileID: 8400000, guid: 87abed7144e46244eb0c5d0661fb34c0, type: 2}
+  texture2: {fileID: 8400000, guid: 5f71d7cfc73f9254a9b75d7c6a82659e, type: 2}
   sampleMaterial1: {fileID: 2100000, guid: 90ea40c0451eef847922134b3db8b6fe, type: 2}
   sampleMaterial2: {fileID: 0}
   sampleMaterial3: {fileID: 0}
@@ -500,7 +499,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960918419}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -760,14 +759,14 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  far clip plane: 10
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -786,14 +785,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.117721885, y: 0.097548336, z: -0.007553723, w: 0.988215}
-  m_LocalPosition: {x: -2.45, y: 2.88, z: -5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 13.541, y: 11.331, z: 0.474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1687258586
 MonoBehaviour:
   m_ObjectHideFlags: 0
