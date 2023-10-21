@@ -465,7 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   renderTextureCamera: {fileID: 522790179}
   texture1: {fileID: 8400000, guid: fc607c0171f683c41839101317f38312, type: 2}
-  texture2: {fileID: 8400000, guid: 5f71d7cfc73f9254a9b75d7c6a82659e, type: 2}
+  texture2: {fileID: 8400000, guid: 87abed7144e46244eb0c5d0661fb34c0, type: 2}
   sampleMaterial1: {fileID: 2100000, guid: 90ea40c0451eef847922134b3db8b6fe, type: 2}
   sampleMaterial2: {fileID: 0}
   sampleMaterial3: {fileID: 0}
